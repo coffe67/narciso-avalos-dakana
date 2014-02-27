@@ -169,11 +169,7 @@ header nav ul li a {
 }
 
 
-#who,#proyectos,#curiosidades,#contacto{
-	padding: 7em 0;
-	overflow: hidden;
-	border-top: 1px solid #ddd;
-}
+
 
 .content-head{
 	max-width: 1170px;
@@ -211,8 +207,30 @@ header nav ul li a {
 }
 
 
-
-
+#who,#proyectos,#curiosidades,#contacto{
+	padding: 7em 0;
+	overflow: hidden;
+	min-height: 600px;
+	border-top: 1px solid #ddd;
+}
+.box figure{
+	padding: 7px;
+	background: #222;
+	height: 220px;
+	width: 220px;
+	margin: 2px;
+	display: inline-block;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.box figure img{
+	width: 206px;	
+}
+.box figure figcaption{
+	display: block;
+	background: #fff;
+}
 /**Icon Fonts*/
 
 
