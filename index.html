@@ -12,11 +12,13 @@
     <title>Narciso Avalos | MX Full-Stack Web Developer</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 
     <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
-    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!--<link href="css/nav.css" rel="stylesheet">-->
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -29,82 +31,105 @@
   </head>
 
   <body>
-    
+    <article class="social-network">
+      <a href="" id="icon-face" alt="Facebook Narciso">
+        <span class="icon-facebook"></span>
+      </a>
+      <a href="" id="icon-twit" alt="Twitter Narciso">
+        <span class="icon-twitter"></span> 
+      </a> 
+       <a href="" id="icon-linkedin" alt="LinkedIn Narciso">
+        <span class="icon-linkedin"></span> 
+       </a> 
+       <a href="" id="icon-google" alt="Google+ Narciso">
+        <span class="icon-google-plus"></span> 
+       </a>
+        <a href="" id="icon-skype" alt="Skype Narciso">
+          <span class="icon-skype"></span>  
+        </a>              
+     </article>
     <header>
-      <article>
-        <span>FaceBook</span>
-        <span>Twitter</span>
-        <span>LinkedIn</span>
-        <span>Instagram</span>
-        <span>Skype</span>
-      </article>
-            
+      <div class="content-head">
+       <article class="stamp">
+          <h1>
+            <figure>
+              <img src="images/narciso.jpg" alt="Narciso Avalos">
+            </figure>
+            Narciso Avalos 
+          </h1> 
+          <h2>
+            Creo fuertemente en que todos los dias se puede aprender algo nuevo y compartirlo.<br>
+            Full-Stack Web Developer | Quick Learner | Apasionado por la Web
+          </h2>       
+        </article> 
+        <nav>
+          <ul>
+            <li class="first"><a href="#who">Narciso</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#curiosidades">Curiosidades</a></li>
+            <li class="last"><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>      
+      </div>       
     </header>
-    <section>
-      <article>
-        <h1>
-          <figure>
-            <img src="">
-          </figure>
-          Narciso Avalos 
-        </h1>
-      </article>
-      <article>
-        <div>About</div>
-        <div>Proyectos</div>
-        <div>Pruebas</div>
-        <div>Contacto</div>
-      </article>
-      <article class="">
-        <h2>About</h2>
-
-      </article>
-
-
+    <section id="who">
+      <h2 class="title">Narciso</h2>
+      
+    </section>
+    <section id="Proyectos">
+       <h2 class="title">Proyectos</h2>
+       <div class="box">
+         <figure>
+           <img src="" alt="Tribal Fest Guadalajara 2014">
+           <figcaption>
+              Tribal Fest Guadalajara
+           </figcaption>
+         </figure>
+         <figure>
+           <img src="" alt="Tribal Fest Guadalajara 2014">
+           <figcaption>
+              Tribal Fest Guadalajara
+           </figcaption>
+         </figure>
+         <figure>
+           <img src="" alt="Tribal Fest Guadalajara 2014">
+           <figcaption>
+              Tribal Fest Guadalajara
+           </figcaption>
+         </figure>
+         <figure>
+           <img src="" alt="Tribal Fest Guadalajara 2014">
+           <figcaption>
+              Tribal Fest Guadalajara
+           </figcaption>
+         </figure>
+       </div> 
+    </section>
+    <section id="curiosidades">
+      <h2 class="title">Curiosidades</h2>
+        <p>
+          
+        </p>
+    </section>
+    <section id="contacto">
+      <h2 class="title">Contacto</h2>
+        <form>
+          <input type="email" preload="@">
+        </form>
     </section>
 
-    <div class="site-wrapper">
+    <footer>
+      
+    </footer>
 
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Cover</h3>
-              <ul class="nav masthead-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="inner cover">
-            <h1 class="cover-heading">Cover your page.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Learn more</a>
-            </p>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
+    <script src="js/slow-down.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
   </body>
 </html>
